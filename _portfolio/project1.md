@@ -1,19 +1,22 @@
 ---
-title: Project Threads
-subtitle: subtitle lorem ipsum dolor sit amet consectetur.
-image: https://file06.16sucai.com/2016/0227/cda1410ea26ac1b631889e95f6c846db.jpg
-alt: Shirts on a hanger
+caption: #what displays in the portfolio grid:
+  title: Regular Watercup
+  subtitle: 7 USD
+  thumbnail: assets/img/portfolio/01.jpeg
+  
+#what displays when the item is clicked:
+title: Regular Watercup
+subtitle: A regular cup used for drinking water.
+image: assets/img/portfolio/01.jpeg #main image, can be a link or a file in assets/img/portfolio
+alt: image alt text
 
-caption:
-  title: Threads
-  subtitle: Illustration
-  thumbnail: https://file06.16sucai.com/2016/0227/cda1410ea26ac1b631889e95f6c846db.jpg
 ---
+Use this area to describe your project. **Markdown** supported.
 
-Use this area to describe your project. **Markdown** supported. This entry (project1.md) uses links for the image sources. All other projects in the portfolio use local images. Both work just fine! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+optional info list (delete if not using):
 
-{:.list-inline}
+{:.list-inline} 
+- Date: 
+- Client: 
+- Category: 
 
-- Date: January 2017
-- Client: Threads
-- Category: Illustration

@@ -11,67 +11,60 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
+    title: Welcome to my website!
+    text: This is a website for producing glass cups
     button: Tell Me More
     buttonlink: "#services"
 
   services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: " activities"
+    text: "This module is used to publish new activities"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "Creative Design Competition"
+        desc: "Do you have creativity? We are looking for the next most unique glass cup design! Participate in our creative design competition, showcase your ideas, and have the opportunity to turn your designs into real products!"
+        icon: fas fa-magic #find more at https://fontawesome.com/icons
+      - title: "Glass Craft Experience Day"
+        desc: "Bring your family and friends to join our Glass Craft Experience Day! In this exciting event, you will have the opportunity to make your own glass by hand. Our professional craftsmen will personally guide you to experience the fun and challenges of glass craftsmanship."
+        icon: fas fa-hands
+      - title: "Anniversary Celebration Special Offer"
+        desc: "To thank you for your support and trust over the years, we have held an anniversary celebration special offer! At this special moment, we have launched a series of limited time promotions and discounts, allowing you to purchase our exquisite glass cups at a more favorable price."
+        icon: fa fa-calendar-day
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Product"
+    text: "This module is used to showcase the products we produce"
     section: portfolio
     closebutton: "Close Project"
 
   timeline:
     title: "Timeline"
-    text: "Lorem ipsum timeline"
+    text: "This module is used to introduce the development history of enterprises"
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
+      - title: "Building a brand and expanding the market"
+        year: "2016-2020"
+        desc: "During this period, the company has been committed to establishing its own brand image and market position. Through continuous research and innovation, the company has launched a series of uniquely designed and high-quality glass cup products to meet the growing needs of consumers."
+        image: assets/img/timeline/1.jpeg
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
+      - title: "Transforming environmental protection and improving efficiency"
+        year: "2020-2023"
+        desc: "As consumer demand for environmentally friendly products continues to increase, the company will shift its focus to sustainable development and environmental protection concepts. The company has started researching and producing environmentally friendly glass cups made from recycled glass materials, and gradually phased out the traditional disposable plastic cup product line."
+        image: assets/img/timeline/2.jpeg
         alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
+      - title: "Leading environmental protection and intelligent production"
+        year: "2024"
+        desc: "In 2024, the company has become one of the leading enterprises in the field of environmentally friendly glass cups. The company continuously innovates and launches more product lines that meet market demand, including customized services and personalized designs, to meet the needs of different customer groups."
+        image: assets/img/timeline/3.jpeg
         alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
     end: "Be Part <br> of Our <br> Story!"
 
   about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    title: "recruit"
+    text: "This module is used to publish recruitment information"
+    body: "Join our team at Glass Cup Manufacturing Company! We're looking for a skilled Production Technician to operate machinery, ensure quality, and contribute to our dynamic production environment. If you have a passion for manufacturing and a keen eye for detail, apply now!"
     section: about
 
   clients:
@@ -94,13 +87,13 @@ en: &DEFAULT_EN
 
   team:
     title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "This module is used to introduce the key personnel of our team."
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
-      - name: "Kay Garland"
+      - name: "Katerina"
         role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
+        image: assets/img/team/1.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -108,8 +101,8 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
+      - name: "Tianrui Fan"
+        role: "Boss"
         image: assets/img/team/2.jpg
         social:
           - url: https://twitter.com
@@ -118,9 +111,9 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
+      - name: "Diana"
         role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
+        image: assets/img/team/3.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -131,7 +124,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: "Send email to 755127681@qq.com"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -190,10 +183,10 @@ es: &DEFAULT_ES
         desc: "Su descripción aquí, soporte completo de **Markdown**"
         icon: fab fa-markdown
 
-  portfolio:
-    title: "Portafolio"
+  product:
+    title: "Product"
     text: "Lorem ipsum dolor sit amet consectetur."
-    section: portafolio
+    section: product
     closebutton: "Cerrar Proyecto"
 
   timeline:
@@ -345,10 +338,10 @@ de: &DEFAULT_DE
         desc: "Hier können Sie etwas mit **Markdown** einfügen."
         icon: fab fa-markdown
 
-  portfolio:
-    title: "Portfolio"
+  product:
+    title: "Product"
     text: "Lorem ipsum dolor sit amet consectetur."
-    section: Portfolio
+    section: Product
     closebutton: "Schließen"
 
   timeline:

@@ -11,20 +11,20 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Services"
-      section: services
-    - title: "Portfolio"
-      section: portfolio
-    - title: "About"
-      section: about
+    - title: "Activities"
+      section: activities
+    - title: "Product"
+      section: product
+    - title: "Recruit"
+      section: recruit
     - title: "Timeline"
       section: timeline
     - title: "Team"
       section: team
     - title: "Contact"
       section: contact
-    - title: "Theme Source"
-      url: https://github.com/raviriley/agency-jekyll-theme/
+    - title: "Github"
+      url: https://github.com/scckar/glasscup.github.io
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -63,8 +63,8 @@ de: &DEFAULT_DE
   nav:
     - title: "Leistungen"
       section: Leistungen
-    - title: "Portfolio"
-      section: Portfolio
+    - title: "Product"
+      section: Product
     - title: "Über uns"
       section: Ueber
     - title: "Geschichte"
